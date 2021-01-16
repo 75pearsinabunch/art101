@@ -12,8 +12,8 @@ p{
 
 #content{
   background-color: #cccccc;
-  width: 650px;
-  min-height: 300px;
+  width: auto;
+  min-height: auto;
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
