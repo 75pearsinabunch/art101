@@ -10,20 +10,24 @@
   color: blue;
   font-family: "comic sans";
   text-indent: 20px;
-  margin-left: 20px;
+  margin-left: 40px;
 }
 .lab a{
   color: green;
   font-family: "comic sans";
   text-indent: 20px;
-  margin-left: 20px;
+  margin-left: 50px;
 }
 body {
   background-color: lightblue;
+
 }
-img{
+.center{
+  display: block;
   width: 500px;
   height: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 p{
