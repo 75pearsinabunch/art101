@@ -1,22 +1,23 @@
-h1{
+body div h1{
   color: blue;
-  text-align: center;
   font-size: 300%;
+  text-align: center;
 }
 
-p{
+body div p{
   font-family: "comic sans";
-  text-indent: 20px;
-  margin-left: 25px;
+  text-indent: 25px;
+  margin-left: 10px;
+  font-size: 150%;
 }
 
 #content{
   background-color: #cccccc;
-  width: auto;
-  min-height: auto;
+  width: 800px;
+  min-height: 600px;
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
-  border: solid 1px #444444;
+  border: solid 10px #444444;
   font-size: 20px;
 }
