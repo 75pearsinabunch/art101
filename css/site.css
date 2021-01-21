@@ -1,43 +1,46 @@
-/*comments for example
-#lab_2 a{
-  color: purple;
-}
-#lab_2{
-  color: blue;
-} */
-}
-.lab{
-  color: blue;
-  font-family: "comic sans";
-  text-indent: 20px;
-  margin-left: 40px;
-}
-.lab a{
-  color: green;
-  font-family: "comic sans";
-  text-indent: 20px;
-  margin-left: 50px;
-}
-body {
+
+body{
   background-color: lightblue;
-
 }
-.center{
+
+body main div{
+  border: 5px solid #555;
+}
+
+body main div h1{
+  float: left;
+  font-size: 200%;
+}
+
+body main div p{
+  float: left;
+  font-size: 150%;
+  font-size: 20px
+}
+
+body main div figure img{
   display: block;
-  width: 500px;
-  height: 400px;
   margin-left: auto;
-  margin-right: auto;
+  width: 800px;
 }
 
-p{
-  text-align: center;
-  font-size: 300%;
+body main div figure figcaption{
+  margin-left: auto;
+  width: 800px;
 }
-p1{
-  text-align: center;
-  font-size: 150%;
+
+body main nav {
+  text-indent: 35px;
+  border: 5px solid #555;
+  font-size: 200%;
 }
-ol{
-  font-size: 150%;
+
+.lab {
+  color: purple;
+  text-indent: 50px;
+}
+
+.lab a {
+  color: blue;
+  text-indent: 75;
 }
