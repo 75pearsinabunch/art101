@@ -18,12 +18,6 @@ body main div p{
   font-size: 20px
 }
 
-body main div figure img{
-  display: block;
-  margin-left: auto;
-  width: 800px;
-}
-
 body main div figure figcaption{
   margin-left: auto;
   width: 800px;
