@@ -1,0 +1,35 @@
+body h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+body div h2{
+  text-align: center;
+  font-size: 40px;
+}
+
+body div p{
+  text-align: center;
+  font-size: 30px;
+}
+
+body h2{
+  text-align: center;
+  font-size: 40px;
+}
+
+body p{
+  text-align: center;
+  font-size: 30px;
+}
+
+body img{
+
+  width: 550px;
+  height: 450px;
+  float: right;
+}
+
+body div ol li{
+  font-size: 30px;
+}
