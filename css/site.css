@@ -28,6 +28,12 @@ body main nav {
   border: 5px solid #555;
   font-size: 200%;
 }
+.pic{
+  display: block;
+  margin-left: auto;
+  width: 800px;
+  height: 600px;
+}
 
 .lab {
   color: purple;
