@@ -1,0 +1,29 @@
+h1{
+  font-size: 60px;
+  margin-left: 60px;
+}
+
+h2{
+  font-size: 50px;
+  margin-left: 60px;
+}
+
+h3{
+  font-size: 40px;
+  margin-left: 60px;
+}
+
+p{
+font-size: 30px;
+margin-left: 60px;
+}
+
+.output{
+  font-size: 30px;
+  margin-left: 60px;
+}
+
+p a{
+  font-size: 40px;
+  text-align: center;
+}
