@@ -1,3 +1,4 @@
+/*
 var varname = "SectionC";
 console.log(varname);
 varname = "I changed section";
@@ -24,4 +25,36 @@ function testBigger (firstnum, secondNum){
 var nameVar = "Toni";
 var numnNumb = 17;
 firstFunction();
-testBigger();
+testBigger(5,8);
+
+
+
+function testBiggerWithReturn(firstNum, secondNum){
+  var result;
+  result = firstNum > secondNum;
+  console.log(result);
+  return result;
+}
+var sum = testBiggerWithReturn(10,15);
+console.log(testBiggerWithReturn(10,15));
+console.log(sum);
+sum = sum +8;
+console.log(8);
+*/
+
+function userName(firstName, lastName) {
+  var result = "My first name is: " + firstName + ", " + "My last name is: " + lastName;
+  return result;
+}
+console.log(userName("Tom", "The Cat"));
+
+var myVarFun = function(){
+  console.log("Functions are nice!");
+}
+myVarFun();
+
+setTimeout(function(){
+    console.log("Look mah! No name!");
+},4000);
+
+setTimeout(myVarFun, 2000)
