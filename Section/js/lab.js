@@ -41,7 +41,7 @@ console.log(sum);
 sum = sum +8;
 console.log(8);
 */
-
+/*
 function userName(firstName, lastName) {
   var result = "My first name is: " + firstName + ", " + "My last name is: " + lastName;
   return result;
@@ -58,3 +58,9 @@ setTimeout(function(){
 },4000);
 
 setTimeout(myVarFun, 2000)
+*/
+
+
+setTimeout(function() {
+    console.log("I am so tired");
+}, 3000);
