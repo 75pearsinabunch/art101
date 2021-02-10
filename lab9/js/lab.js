@@ -1,41 +1,14 @@
-function firstThing(test){
-  console.log(test + ": This is the first thing.<br>")
-}
+/**
+ * Author:    Alvaro Perez
+ * Created:   02.10.2021
+ *
+ * (c) Copyright by Alvaro Perez
+ **/
 
-function secondThing(test){
-  console.log(test + ": This is the second thing.<br>")
-}
-
-function thirdThing(test){
-  console.log(test + ": This is the third thing.<br>")
-}
-
-firstThing("Test 1");
-secondThing("Test 1");
-thirdThing("Test 1");
-
-//test 2 - in order
-setTimeout(function(){
-  firstThing("Test 2");
-}, 0);
-
-setTimeout(function(){
-  secondThing("Test 2");
-}, 0);
-
-setTimeout(function(){
-  thirdThing("Test 2");
-}, 0);
-
-//test 3 - order is 2, 3, 1
-setTimeout(function(){
-  firstThing("Test 3");
-}, 3000);
-
-setTimeout(function(){
-  secondThing("Test 3");
-}, 1000);
-
-setTimeout(function(){
-  thirdThing("Test 3");
-}, 2000);
+var outputEl = document.getElementById("output");
+var new1El = document.createElement("p");
+new1El.innerHTML = "I have transformed!!!";
+var new2El = document.createElement("h1");
+new2El.innerHTML = "So, what is different?";
+document.body.appendChild(new1El);
+document.body.appendChild(new2El);
