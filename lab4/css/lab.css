@@ -23,11 +23,13 @@ body p{
   font-size: 30px;
 }
 
-body img{
-
-  width: 550px;
-  height: 450px;
+#headshot {
   float: right;
+  margin: 10px;
+}
+
+#headshot img {
+  width: 400px;
 }
 
 body div ol li{
