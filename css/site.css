@@ -1,46 +1,76 @@
 
-body{
-  background-color: lightblue;
+body {
+    font-family: Helvetica, Verdana, Arial, "san serif";
+    background-color: lightblue;
+    padding: 25px;
+    font-size: 120%;
 }
 
-body main div{
-  border: 5px solid #555;
+#content {
+    padding: 50px;
+    background-color: PapayaWhip;
+    border: solid 1px #333333;
+    min-height: 80vh;
 }
 
-body main div h1{
-  float: left;
-  font-size: 200%;
+h1, h2, h3, h4 {
+    font-family: 'Londrina Sketch', cursive;
+    font-weight: bold;
+    margin: 0;
 }
 
-body main div p{
-  float: left;
-  font-size: 150%;
-  font-size: 20px
+h1 {font-size: 60px;}
+h2 {font-size: 54px;}
+h3 {font-size: 44px;}
+h4 {font-size: 38px;}
+
+figure {
+    display: inline-block;
 }
 
-body main div figure figcaption{
-  margin-left: auto;
-  width: 800px;
+figcaption {
+    text-align: center;
+    width: 400px;
+    font-size: 80%;
 }
 
-body main nav {
-  text-indent: 35px;
-  border: 5px solid #555;
-  font-size: 200%;
-}
-.pic{
-  display: block;
-  margin-left: auto;
-  width: 800px;
-  height: 600px;
+img {
+    width: 400px;
+    height: auto;
 }
 
-.lab {
-  color: purple;
-  text-indent: 50px;
+a {
+    text-decoration: none;
+    color: maroon;
+}
+a:hover {
+    text-decoration: underline;
+    text-decoration-style: dotted;
+}
+.linkbox {
+    padding: 10px;
+    font-size: 80%;
+}
+.homelink {
+    text-align: left;
+}
+.sourcelink {
+    float: right;
 }
 
-.lab a {
-  color: blue;
-  text-indent: 75;
+#output {
+}
+
+.input-output {
+    border: solid 1px #333333;
+    padding: 10px 10px 30px;
+}
+
+.credits {
+    font-size: 60%;
+    color: gray;
+}
+.credits a {
+    text-decoration: inherit;
+    color: inherit;
 }
