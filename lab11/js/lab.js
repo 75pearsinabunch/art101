@@ -20,3 +20,11 @@ resultsEl.append(myButton);
 $('#challenges button').click(function(){
   $('#challenges').toggleClass('special');
 })
+
+$('#problems button').click(function(){
+  $('#problems').toggleClass('special2');
+})
+
+$('#results button').click(function(){
+  $('#results').toggleClass('special3');
+})
