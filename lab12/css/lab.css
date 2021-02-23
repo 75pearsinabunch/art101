@@ -37,3 +37,8 @@ p a{
 .special3{
   background-color: purple;
 }
+input{
+  font-size: 20px;
+  text-align: center;
+  margin-left: 60px;
+}
