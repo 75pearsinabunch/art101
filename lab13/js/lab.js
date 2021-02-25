@@ -35,6 +35,7 @@ $("#output").html(oneLongString);
 str =+ "Fizz";
 $("#output").append("<p>" + str + "</p>");
 $("#output").append*/
+
 number = 4;
 outputEl = document.getElementById("output");
 function getFactorObj() {
