@@ -1,0 +1,12 @@
+#output {
+  column-count: 10;
+  column-gap: normal;
+}
+
+body {
+  margin-left: 30px;
+}
+
+div {
+  margin-bottom: 10px;
+}
