@@ -33,8 +33,8 @@ $("#button").click(function() {runSort()});
 function runSort() {
   var name = $("#input").val();
   var yourHouse = sortingHat(name);
-  var houseName = ["Gryffindor","Ravenclaw","Slytherin","Hufflepuff"];
-  $("#output").html("The sorting hat has sorted you into " + houseName[yourHouse]);
+  var houses = ["Gryffindor","Ravenclaw","Slytherin","Hufflepuff"];
+  $("#output").html("The sorting hat has sorted you into " + houses[yourHouse]);
 }
 function sortingHat(string) {
   var length = string.length;
