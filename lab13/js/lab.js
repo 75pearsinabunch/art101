@@ -40,6 +40,7 @@ var oneLongString= "";
 for (var num= 1; num <= 200; num++) {
   if (num % 105 == 0) {
     console.log ("fizzbuzzboom");
+    debugger;
     oneLongString += num + " - FizzBuzzBoom!<br>";
   }
   else if (num % 15 == 0) {
