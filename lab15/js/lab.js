@@ -22,6 +22,6 @@ function successFun(result){
   $("#output").html(result);
 }
 function errorFun(xhr, status, strErr){
-  console.lod("error");
+  console.log("error");
 }
 $("#activate").click(getAjax);
