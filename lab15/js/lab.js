@@ -4,18 +4,18 @@
 *
 * (c) Copyright by Alvaro Perez
 **/
-
+//Got code from Toni Section C
 function getAjax(){
-$.ajax({
-  url:"http://numbersapi.com/random/year",
-  type:"GET",
-  dataType:"text",
-  success: successFun,
-  error:errorFun,
-  complete:function(xhr, status){
-    console.log("request is complete");
-  }
-});
+  $.ajax({
+    url:"http://numbersapi.com/random/year",
+    type:"GET",
+    dataType:"text",
+    success: successFun,
+    error:errorFun,
+    complete:function(xhr, status){
+      console.log("request is complete");
+    }
+  });
 }
 function successFun(result){
   console.log(result);
