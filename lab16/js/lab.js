@@ -25,34 +25,37 @@
 //   console.log("error");
 // }
 // $("#activate").click(getAjax);
-
+//function that
 function getAjax() {
   $.ajax({
     url: "https://xkcd.com/614/info.0.json",
     data: { },
     type: "GET",
     dataType : "json",
+    //if successfull then do this
     success: function( data ) {
       var textData = JSON.stringify(data);
-      var str = "";
+      //empty list to hold stuff
+      var empty = "";
       var image = data.img;
       var title = data.title;
       var alt = data.alt;
-      str += "<h2>" + title + "</h1>";
-      str += "<img src='" + image + "' title='" + alt + "'>"
-      printing(str);
+      empty += "<h2>" + title + "</h1>";
+      empty += "<img src='" + image + "' title='" + alt + "'>"
+      printing(empty);
       console.log("Success:", textData);
       $("#alt").html(alt);
     }
   })
-
+    // tells me if fails
   .fail(function( xhr, status, strErr ) {
     console.log("Failure.");
     printing(strErr + " Status:" + status);
   })
 }
-
+//prints out the string
 function printing(text){
   $("#output").html(text);
 }
+//button
 $("#activate").click(getAjax);
