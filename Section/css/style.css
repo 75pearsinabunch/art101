@@ -14,3 +14,16 @@
 }
 
 #input_text{border: solid 10px grey;}
+
+
+.images {
+  width: 200px;
+}
+#img_id_5{filter: invert();}
+
+figcaption{
+  width: 200px;
+}
+figure{
+  display: inline-block;
+}
